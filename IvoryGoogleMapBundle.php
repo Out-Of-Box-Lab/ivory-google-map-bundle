@@ -35,7 +35,6 @@ class IvoryGoogleMapBundle extends Bundle
             ->addCompilerPass(new RegisterControlRendererPass())
             ->addCompilerPass(new RegisterExtendableRendererPass())
             ->addCompilerPass(new RegisterFormResourcePass())
-            ->addCompilerPass(new RegisterHelperListenerPass())
             ->addCompilerPass(new PublicForTestsCompilerPass());
     }
 }
